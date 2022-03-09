@@ -1,0 +1,13 @@
+.about-bgImg-container{
+    @include bgImage(50vh, "../img/model-1.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .about__bio-image{
+        text-align: center;
+        h2{
+            
+        }
+    }
+}
